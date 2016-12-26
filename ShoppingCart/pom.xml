@@ -8,6 +8,7 @@
   <name>ShoppingCart Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+  
   <!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
 <dependency>
     <groupId>org.springframework</groupId>
@@ -39,15 +40,14 @@
     <artifactId>jstl</artifactId>
     <version>1.2</version>
 </dependency>
-
-<!-- https://mvnrepository.com/artifact/junit/junit -->
-<dependency>
-    <groupId>junit</groupId>
-    <artifactId>junit</artifactId>
-    <version>4.8.2</version>
-</dependency>
-
-</dependencies>
+  
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
   <build>
     <finalName>ShoppingCart</finalName>
   </build>
